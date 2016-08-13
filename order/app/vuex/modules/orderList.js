@@ -1,7 +1,6 @@
 // vuex/modules/index.js
 import {
   SHOW_DETAIL,
-  FOLD
 } from '../mutation-types'
 
 // 该模块的初始状态

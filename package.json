@@ -3,7 +3,6 @@
   "description": "A collection of Vue.js demos",
   "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
   "scripts": {
-    "shopping-cart": "webpack-dev-server --config shopping-cart/webpack.config.js --content-base shopping-cart --inline --hot --port 8888",
     "order": "webpack-dev-server --config order/webpack.config.js --content-base order --inline --hot --port 8888",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
