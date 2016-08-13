@@ -25,13 +25,11 @@
   }
 </script>
 <template>
-  <div class="container">
-    <div class="row">
-      <ul class="list-unstyled">
-        <order></order>
-      </ul>
-    </div>
-  </div><!-- ./container -->
+  <div class="container-fluid">
+    <ul class="list-unstyled row">
+      <order></order>
+    </ul>
+  </div>
 </template>
 <style>
 

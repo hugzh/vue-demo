@@ -8,8 +8,7 @@
         activeOrder:({orderList})=>orderList.activeOrder
       },
       actions:{
-        showDetail,
-        fold
+        showDetail
       }
     }
   }
@@ -23,7 +22,7 @@
       <span><small>[{{order.currentTerm}}/{{order.totalTerms}}]</small></span>
       </p>
     </div>
-    <div class="bill-detail" v-show="order.id==activeOrder.id">
+    <div class="bill-detail" v-show="order.id==activeOrder.id" transition="fade">
         <p>
         <div class="order-item">最后还款日期：{{order.repayDate}}</div>
         <div class="order-item">交易类型期：{{order.type}}</div>
@@ -50,5 +49,14 @@
 .order-item {
   display: inline-block;
   width: 45%;
+}
+/* 过渡效果 */
+.fade-transition {
+  transition: all .8s ease;
+}
+.fade-enter,
+.fade-leave {
+  height: 0;
+  opacity: 0;
 }
 </style>
