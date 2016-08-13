@@ -4,16 +4,16 @@
 
 ```bash
 # clone 
-git clone 
+$ git clone 
 
 # 进入目录
-cd vue-demo
+$ cd vue-demo
 
 # 安装依赖
-npm install
+$ npm install
 
 # 执行
-e.g: npm run order
+$ npm run order
 ```
 
 #License
