@@ -1,7 +1,7 @@
 {
   "name": "vue-demo",
-  "description": "A collection of Vue.js demos",
-  "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
+  "description": "vuejs学习练手demo",
+  "author": "hugzh",
   "scripts": {
     "order": "webpack-dev-server --config order/webpack.config.js --content-base order --inline --hot --port 8888",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
